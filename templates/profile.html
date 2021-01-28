@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="/css/profile.css">
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div style="float:right">
+    <form align="right" name="form1" method="post" action="/signin">
+        <label class="logoutLblPos">
+            <input name="submit2" type="submit" id="submit2" value="log out">
+        </label>
+    </form>
+</div>
+<div class="card">
+    <img src="https://cdn.icon-icons.com/icons2/1378/PNG/512/avatardefault_92824.png" style="width:100%">
+    <h1>{{.Name}}</h1>
+    <p class="title">{{.Email}}</p>
+    <p>Age:{{.Age}}</p>
+    <p>Country:{{.Country}}</p>
+    <p><button>Contact</button></p>
+</div>
